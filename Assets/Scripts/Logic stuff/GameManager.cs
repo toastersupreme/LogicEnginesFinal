@@ -11,10 +11,10 @@ public class GameManager : MonoBehaviour
 
     public List<Transform> Swarmers = new List<Transform>();
     public GameObject WinUIParent;
+    public TMPro.TextMeshProUGUI livesTextbox;
     private Scene currentScene;
     public void Start()
     {
-
         PlayerCaught.AddListener(this.LoseGame);
         PlayerWon.AddListener(this.WinGame);
     }
@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("OnSceneLoaded: " + scene.name);
         Debug.Log(mode);
+        livesTextbox.text = "Lives " + PlayerInfo.Instance.playerLives;
         currentScene = scene;
     }
     // called when the game is terminated
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
     }
     public void LoseGame()
     {
-        SceneManager.LoadScene(currentScene.name);
+        PlayerInfo.Instance.decreaseLives();       
     }
     public void openScene(string name)
     {

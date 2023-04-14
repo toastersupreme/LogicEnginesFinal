@@ -4,9 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class GuyManager : MonoBehaviour
-{
-    public PlayerInfo playerInfo;
-
+{ 
     public MeshRenderer guy;
     public Material paidMaterial;
     public Material adMaterial;
@@ -19,8 +17,8 @@ public class GuyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifeText.text = playerInfo.playerLives.ToString();
-        if (playerInfo.playerLives <= 0)
+        lifeText.text = PlayerInfo.Instance.playerLives.ToString();
+        if (PlayerInfo.Instance.playerLives <= 0)
         {
             startButton.SetActive(false);
             halt.text = "You need lives to play!";
@@ -35,18 +33,18 @@ public class GuyManager : MonoBehaviour
     public void AdSkin()
     {
         guy.material = adMaterial;
-        playerInfo.guyMat = guy.material;
+        PlayerInfo.Instance.guyMat = guy.material;
     }
 
     public void BoughtSkin()
     {
         guy.material = paidMaterial;
-        playerInfo.guyMat = guy.material;
+        PlayerInfo.Instance.guyMat = guy.material;
     }
 
     public void BoughtLives()
     {
-        playerInfo.playerLives += 5;
+        PlayerInfo.Instance.playerLives += 5;
     }
 
     public void DoNothing()

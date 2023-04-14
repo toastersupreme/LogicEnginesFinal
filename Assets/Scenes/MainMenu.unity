@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec270138aba2aa44884bd2202375ea54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLives: 4
+  playerLives: 1
   guyMat: {fileID: 0}
 --- !u!4 &509259637
 Transform:

@@ -10,6 +10,7 @@ public class PlayerInfo : MonoBehaviour
     public int playerLives;
     public Material guyMat;
 
+    private GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +43,8 @@ public class PlayerInfo : MonoBehaviour
         if (scene.name.Contains("Level"))
         {
             Debug.Log("we loaded the level");
-            GameObject.FindGameObjectWithTag("Player").GetComponent<MeshRenderer>().material = guyMat;
+            player = GameObject.FindGameObjectWithTag("Player");
+            player.GetComponent<MeshRenderer>().material = guyMat;
         }
     }
     // called when the game is terminated
@@ -58,6 +60,10 @@ public class PlayerInfo : MonoBehaviour
         if(playerLives <= 0)
         {
             SceneManager.LoadScene("MainMenu");
+        }
+        else
+        {
+            SceneManager.LoadScene(player.scene.name);
         }
     }
 
