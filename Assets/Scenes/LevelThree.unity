@@ -130,6 +130,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -348,6 +358,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -741,6 +761,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -820,6 +850,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -899,6 +939,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8146160173866232233, guid: fd0b16813ad4f014c8958311d8253b46,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146160173866232245, guid: fd0b16813ad4f014c8958311d8253b46,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8146160173866232246, guid: fd0b16813ad4f014c8958311d8253b46,
         type: 3}
       propertyPath: m_Name
@@ -1358,7 +1408,7 @@ GameObject:
   - component: {fileID: 841565629}
   - component: {fileID: 841565628}
   - component: {fileID: 841565627}
-  - component: {fileID: 841565626}
+  - component: {fileID: 841565631}
   m_Layer: 0
   m_Name: LevelLayout (2)
   m_TagString: Untagged
@@ -1366,26 +1416,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &841565626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841565625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_StartPoint: {x: 1, y: 0.5, z: -15.65}
-  m_EndPoint: {x: 1, y: 0.5, z: -6.89}
-  m_Width: 2.47
-  m_CostModifier: -1
-  m_Bidirectional: 1
-  m_AutoUpdatePosition: 0
-  m_Area: 0
 --- !u!114 &841565627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,6 +1533,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &841565631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841565625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e95dc5ff2b64380880dd7ac5922847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 27.798626, y: 4, z: 17.58869}
+  m_Center: {x: 28.114016, y: 1, z: -3.5393438}
+  m_Area: 3
+  m_AffectedAgents: f2652fae
 --- !u!1 &844796195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1738,6 +1784,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -1837,8 +1893,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045739272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.94, y: 0, z: -5.34}
-  m_LocalScale: {x: 20, y: 1, z: 4}
+  m_LocalPosition: {x: 22.7436, y: 0, z: -5.34}
+  m_LocalScale: {x: 18.392, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 841565630}
@@ -1851,7 +1907,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045739272}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 323f4021af93dd045bda0f54dace7108, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1877,7 +1933,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95bb5bad56138be458292d16434ac1df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2217,6 +2273,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -2330,7 +2396,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340390344}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 323f4021af93dd045bda0f54dace7108, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2356,7 +2422,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95bb5bad56138be458292d16434ac1df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2413,8 +2479,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346824218}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 23.690006, y: 0, z: -7.6500015}
-  m_LocalScale: {x: 20, y: 1, z: 4}
+  m_LocalPosition: {x: 23.690006, y: 0, z: -5.2601}
+  m_LocalScale: {x: 15.219999, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 841565630}
@@ -2427,7 +2493,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346824218}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 323f4021af93dd045bda0f54dace7108, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2453,7 +2519,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95bb5bad56138be458292d16434ac1df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2490,6 +2556,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -2794,6 +2870,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -2985,6 +3071,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -3064,6 +3160,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -3143,6 +3249,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager
@@ -3489,8 +3605,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978864643}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 23.500006, y: 0, z: 8.249999}
-  m_LocalScale: {x: 20, y: 1, z: 4}
+  m_LocalPosition: {x: 23.500006, y: 0, z: 10.7098}
+  m_LocalScale: {x: 15.08, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 841565630}
@@ -3600,7 +3716,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065772381}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 323f4021af93dd045bda0f54dace7108, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3626,7 +3742,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95bb5bad56138be458292d16434ac1df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3663,6 +3779,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_WalkableMask
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255555, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: m_ObstacleAvoidanceType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: GameManager

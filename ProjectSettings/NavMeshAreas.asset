@@ -11,8 +11,8 @@ NavMeshProjectSettings:
     cost: 1
   - name: Jump
     cost: 2
-  - name: 
-    cost: 1
+  - name: goop
+    cost: 4
   - name: 
     cost: 1
   - name: 
@@ -92,8 +92,8 @@ NavMeshProjectSettings:
   - serializedVersion: 2
     agentTypeID: -1372625422
     agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
+    agentHeight: 1
+    agentSlope: 29.5
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -110,8 +110,8 @@ NavMeshProjectSettings:
   - serializedVersion: 2
     agentTypeID: -334000983
     agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
+    agentHeight: 3
+    agentSlope: 60
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
