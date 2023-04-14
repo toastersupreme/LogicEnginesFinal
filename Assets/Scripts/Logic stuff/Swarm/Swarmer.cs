@@ -6,6 +6,8 @@ using UnityEngine.Assertions;
 
 public class Swarmer : BaseAIEntity
 {
+    public GameManager gameManager;
+    
     public const int idleLengthInSeconds = 5;
     public const int NumberOfPatrolPointsBeforeIdling = 6;
 
@@ -31,7 +33,7 @@ public class Swarmer : BaseAIEntity
     {
         agent = GetComponent<NavMeshAgent>();
 
-        GameManager.Instance.Swarmers.Add(this.transform);
+        gameManager.Swarmers.Add(this.transform);
 
         ChangeState(AIStates.Wobble);
 

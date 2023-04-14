@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14673f0b17c203468732c10990f8d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 813189208}
 --- !u!1001 &224237064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -339,6 +340,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -399,6 +405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1001 &284148430
@@ -912,6 +923,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -972,6 +988,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &992481658
@@ -1272,6 +1293,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -1332,6 +1358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1375258412
@@ -1438,6 +1469,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -1498,6 +1534,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1534375736
@@ -1797,6 +1838,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -1857,6 +1903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1001 &1686210023
@@ -1866,6 +1917,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -1926,6 +1982,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1719527896
@@ -2002,6 +2063,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2062,6 +2128,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1767953847
@@ -2206,6 +2277,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2266,6 +2342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1001 &1807601585
@@ -2275,6 +2356,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2335,6 +2421,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1001 &1863861115
@@ -2344,6 +2435,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2404,6 +2500,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1890043465
@@ -2525,6 +2626,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2585,6 +2691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &1978864643
@@ -2691,6 +2802,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4060547703950255559, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 813189208}
     - target: {fileID: 4060547703950255581, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2751,6 +2867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarmer (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4060547703950255609, guid: 1036efe56b29a3348bd1a34ce91fa8f7,
+        type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 813189208}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1036efe56b29a3348bd1a34ce91fa8f7, type: 3}
 --- !u!1 &2136094605

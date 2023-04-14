@@ -13,7 +13,7 @@ public class GroupUpState : AState<Swarmer>
     public override void OnExecute(Swarmer entity)
     {
         entity.Announce("where is everyone");
-        var swarmers = GameManager.Instance.Swarmers;
+        var swarmers = entity.gameManager.Swarmers;
         int randomSwarmer = Random.Range(0, swarmers.Count - 1);
 
         entity.agent.SetDestination(swarmers[randomSwarmer].position);

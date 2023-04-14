@@ -14,7 +14,7 @@ public class WobbleState : AState<Swarmer>
     {
         Vector3 pos = entity.transform.position;
         entity.agent.SetDestination(new Vector3(pos.x + Random.Range(-3f,3f), pos.y , pos.z + Random.Range(-3f, 3f)));
-        var swarmers = GameManager.Instance.Swarmers;
+        var swarmers = entity.gameManager.Swarmers;
         int randomSwarmer = Random.Range(0, swarmers.Count - 1);
         if (Vector3.Distance(entity.transform.position, swarmers[randomSwarmer].position) >= 1f)
         {

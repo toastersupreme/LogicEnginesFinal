@@ -4,18 +4,17 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : MonoBehaviour
 {
     public UnityEvent PlayerCaught = new UnityEvent(), PlayerWon = new UnityEvent(), PlayerSpotted = new UnityEvent();
 
-    
 
     public List<Transform> Swarmers = new List<Transform>();
     public GameObject WinUIParent;
     private Scene currentScene;
     public void Start()
     {
-        
+
         PlayerCaught.AddListener(this.LoseGame);
         PlayerWon.AddListener(this.WinGame);
     }
@@ -67,6 +66,6 @@ public class GameManager : Singleton<GameManager>
         Application.Quit();
     }
 
-    
+
 
 }

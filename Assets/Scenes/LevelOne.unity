@@ -277,6 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14673f0b17c203468732c10990f8d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 96982040}
 --- !u!65 &181411689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -458,6 +459,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2432602100751401160, guid: b792ea63aba77e648bc3640ec795db15,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 96982040}
     - target: {fileID: 2432602100751401162, guid: b792ea63aba77e648bc3640ec795db15,
         type: 3}
       propertyPath: target
@@ -1912,6 +1918,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2432602100751401160, guid: b792ea63aba77e648bc3640ec795db15,
+        type: 3}
+      propertyPath: GameManager
+      value: 
+      objectReference: {fileID: 96982040}
     - target: {fileID: 2432602100751401162, guid: b792ea63aba77e648bc3640ec795db15,
         type: 3}
       propertyPath: target
