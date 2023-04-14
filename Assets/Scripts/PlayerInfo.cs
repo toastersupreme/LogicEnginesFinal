@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInfo : MonoBehaviour
 {
     public static PlayerInfo Instance { get; set; }
+
+    public int playerLives;
+    public Material guyMat;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +30,35 @@ public class PlayerInfo : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnEnable()
     {
-        
+        Debug.Log("OnEnable called");
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log(mode);
+        if (scene.name.Contains("Level"))
+        {
+            Debug.Log("we loaded the level");
+            GameObject.FindGameObjectWithTag("Player").GetComponent<MeshRenderer>().material = guyMat;
+        }
+    }
+    // called when the game is terminated
+    void OnDisable()
+    {
+        Debug.Log("OnDisable");
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    public void decreaseLives()
+    {
+        playerLives--;
+        if(playerLives <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
+
 }

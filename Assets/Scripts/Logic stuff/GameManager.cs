@@ -36,7 +36,6 @@ public class GameManager : Singleton<GameManager>
     {
         Debug.Log("OnDisable");
         SceneManager.sceneLoaded -= OnSceneLoaded;
-        Destroy(this.gameObject);
     }
     public void RestartGame()
     {
