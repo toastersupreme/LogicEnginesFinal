@@ -8,11 +8,14 @@ public class GameManager : Singleton<GameManager>
 {
     public UnityEvent PlayerCaught = new UnityEvent(), PlayerWon = new UnityEvent(), PlayerSpotted = new UnityEvent();
 
+    
+
     public List<Transform> Swarmers = new List<Transform>();
     public GameObject WinUIParent;
     private Scene currentScene;
     public void Start()
     {
+        
         PlayerCaught.AddListener(this.LoseGame);
         PlayerWon.AddListener(this.WinGame);
     }
@@ -33,6 +36,7 @@ public class GameManager : Singleton<GameManager>
     {
         Debug.Log("OnDisable");
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        Destroy(this.gameObject);
     }
     public void RestartGame()
     {
@@ -40,8 +44,8 @@ public class GameManager : Singleton<GameManager>
     }
     public void WinGame()
     {
-
-        WinUIParent.SetActive(true);
+        SceneManager.LoadScene(currentScene.buildIndex + 1);
+        //WinUIParent.SetActive(true);
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
         foreach (GameObject e in enemies)
         {
@@ -63,5 +67,7 @@ public class GameManager : Singleton<GameManager>
     {
         Application.Quit();
     }
+
+    
 
 }
